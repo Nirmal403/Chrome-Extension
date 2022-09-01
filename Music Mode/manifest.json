@@ -1,0 +1,14 @@
+{
+    "name": "Music Mode",
+    "version": "1.0",
+    "description": "Music Mode - Play while using chrome",
+    "browser_action":{
+        "default_title": "Music Mode",
+        "default_popup":"music.html"
+    },
+    "background":{
+        "page":"background.html",
+        "persistent":true
+    },
+    "manifest_version": 2
+  }
